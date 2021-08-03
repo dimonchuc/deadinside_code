@@ -1,0 +1,31 @@
+from time import sleep
+
+running = True
+fd = ("1000-7")
+
+
+
+lo = input ("enter password: ")
+
+while running:
+
+
+	if lo == fd:
+		print('ну що ')
+		sleep(0.5)
+
+		print('ти ')
+		sleep(0.5)
+
+		print('ГУЛЬ ')	
+		sleep(0.5)
+
+
+		for i in reversed(range (1,1001,7)):
+		
+
+			if lo == fd :
+				
+				print(i)
+				sleep(0.05)
+		running = False
